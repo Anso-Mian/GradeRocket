@@ -279,7 +279,7 @@ git push -u origin main
 ### Step 3: Verify Deployment
 
 **Your site will be live at:**
-```
+
 https://yourusername.github.io/graderocket/
 Check deployment status:
 <ul>
@@ -287,6 +287,7 @@ Check deployment status:
 <li>Yellow dot = Deployment in progress</li>
 <li>Red X = Deployment failed (check Actions tab)</li>
 </ul>
+
 
 Step 4: Update README
 Replace yourusername with your actual GitHub username in:
