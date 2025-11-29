@@ -1,296 +1,193 @@
 GradeRocket 🚀
 A comprehensive web-based GPA calculator and student productivity platform that helps students track their academic performance, manage tasks, take quizzes, and stay organized—all in one place.
+
 🌐 Live Deployment
-Visit the live site: https://yourusername.github.io/graderocket/
+🔗 Visit the live site: https://yourusername.github.io/graderocket/
 
-Note: Replace yourusername with your actual GitHub username in all links above.
+Note: Replace yourusername with your actual GitHub username
+
+
 ✨ Major Features
+<ul>
+<li><strong>📊 Smart GPA Calculator</strong> - Calculate your semester GPA using the absolute grading system (4.0 scale) with support for multiple assessment types including assignments, quizzes, sessionals, finals, and projects. Track your performance against class averages with real-time visual feedback and animated progress indicators.</li>
+<li><strong>📅 Intelligent Task Scheduler</strong> - Never miss a deadline with our comprehensive task management system. Create, organize, and track assignments with priority levels, due dates, status filters (pending, in-progress, completed), and subject categorization—all persisted locally using browser storage.</li>
+<li><strong>📝 Interactive Subject Quizzes</strong> - Test your knowledge with timed quizzes covering six core subjects: Programming Fundamentals, Calculus, Applied Physics, ICT, Pakistan Studies, and Functional English. Get instant scoring, review correct/incorrect answers, and track your quiz history to measure improvement over time.</li>
+</ul>
 
-📊 Smart GPA Calculator - Calculate your semester GPA using the absolute grading system (4.0 scale) with support for multiple assessment types including assignments, quizzes, sessionals, finals, and projects. Track your performance against class averages with real-time visual feedback and animated progress indicators.
-📅 Intelligent Task Scheduler - Never miss a deadline with our comprehensive task management system. Create, organize, and track assignments with priority levels, due dates, status filters (pending, in-progress, completed), and subject categorization—all persisted locally using browser storage.
-📝 Interactive Subject Quizzes - Test your knowledge with timed quizzes covering six core subjects: Programming Fundamentals, Calculus, Applied Physics, ICT, Pakistan Studies, and Functional English. Get instant scoring, review correct/incorrect answers, and track your quiz history to measure improvement over time.
 🛠 Core Technologies
-<img width="685" height="238" alt="image" src="https://github.com/user-attachments/assets/53b485dd-aab2-487a-9128-6e125a9810b2" />
-Technology Stack Details:
-<img width="684" height="175" alt="image" src="https://github.com/user-attachments/assets/3df2bd89-aec0-498a-b1e2-f4641fa5608a" />
+Technology Stack:
+<table>
+<tr>
+<th>Technology</th>
+<th>Version</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td><strong>HTML5</strong></td>
+<td>Latest</td>
+<td>Semantic markup, structure, accessibility</td>
+</tr>
+<tr>
+<td><strong>CSS3</strong></td>
+<td>Latest</td>
+<td>Styling, animations, responsive design, theming</td>
+</tr>
+<tr>
+<td><strong>JavaScript ES6+</strong></td>
+<td>ES2015+</td>
+<td>Client-side logic, DOM manipulation, data management</td>
+</tr>
+<tr>
+<td><strong>LocalStorage API</strong></td>
+<td>-</td>
+<td>Client-side data persistence without backend</td>
+</tr>
+<tr>
+<td><strong>GitHub Pages</strong></td>
+<td>-</td>
+<td>Static site hosting and deployment</td>
+</tr>
+</table>
 Key JavaScript Features Used:
-
-Arrow Functions
-Template Literals
-Destructuring
-Array Methods (map, filter, reduce)
-Async/Await
-Modules Pattern
-Event Delegation
-
+<ul>
+<li>Arrow Functions</li>
+<li>Template Literals</li>
+<li>Destructuring</li>
+<li>Array Methods (map, filter, reduce)</li>
+<li>Async/Await</li>
+<li>Modules Pattern</li>
+<li>Event Delegation</li>
+</ul>
 Key CSS Features Used:
+<ul>
+<li>CSS Grid & Flexbox</li>
+<li>CSS Variables (Custom Properties)</li>
+<li>CSS Animations & Transitions</li>
+<li>Media Queries</li>
+<li>Pseudo-classes & Pseudo-elements</li>
+</ul>
 
-CSS Grid & Flexbox
-CSS Variables (Custom Properties)
-CSS Animations & Transitions
-Media Queries
-Pseudo-classes & Pseudo-elements
 📋 Table of Contents
-
-About
-Features
-Installation
-Usage Guide
-Git Commit History
-Learning Outcomes
-LocalStorage Implementation
-Project Structure
-Contributors
-License
+<ol>
+<li><a href="#about">About</a></li>
+<li><a href="#features-in-detail">Features in Detail</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage-guide">Usage Guide</a></li>
+<li><a href="#git-commit-history-milestones">Git Commit History</a></li>
+<li><a href="#learning-outcomes">Learning Outcomes</a></li>
+<li><a href="#localstorage-implementation">LocalStorage Implementation</a></li>
+<li><a href="#project-structure">Project Structure</a></li>
+<li><a href="#deployment-guide">Deployment Guide</a></li>
+<li><a href="#contributors">Contributors</a></li>
+<li><a href="#license">License</a></li>
+</ol>
 
 🎯 About
 GradeRocket is a feature-rich web application designed to help university and college students manage their academic performance effectively. Built as an ICT semester project using vanilla HTML, CSS, and JavaScript (no frameworks), it demonstrates modern web development practices while solving real student problems.
 Why GradeRocket?
 Students juggle multiple courses, assignments, exams, and deadlines. GradeRocket centralizes academic management by providing:
-
-Accurate GPA tracking with absolute grading
-Organized task and deadline management
-Self-assessment through interactive quizzes
-Brain-training through educational games
-All data stored locally—no account required!
+<ul>
+<li>Accurate GPA tracking with absolute grading</li>
+<li>Organized task and deadline management</li>
+<li>Self-assessment through interactive quizzes</li>
+<li>Brain-training through educational games</li>
+<li>All data stored locally—no account required!</li>
+</ul>
 
 🎨 Features in Detail
 1. 🧮 Smart GPA Calculator
-2. 
 Capabilities:
-
-✅ Support for 8 default subjects (Programming, Calculus, Physics, etc.)
-✅ Add custom subjects with configurable credits
-✅ Multiple assessment types per subject
-✅ Real-time calculation with animated displays
-✅ Class average comparison
-✅ Circular progress visualization
-✅ Fireworks celebration for high GPA (≥3.0)
-✅ Performance tips and suggestions
-✅ Persistent data across sessions
+<ul>
+<li>✅ Support for 8 default subjects (Programming, Calculus, Physics, etc.)</li>
+<li>✅ Add custom subjects with configurable credits</li>
+<li>✅ Multiple assessment types per subject</li>
+<li>✅ Real-time calculation with animated displays</li>
+<li>✅ Class average comparison</li>
+<li>✅ Circular progress visualization</li>
+<li>✅ Fireworks celebration for high GPA (≥3.0)</li>
+<li>✅ Performance tips and suggestions</li>
+<li>✅ Persistent data across sessions</li>
+</ul>
 Assessment Types:
-
-Assignments
-Quizzes
-Sessional 1 (Midterm 1)
-Sessional 2 (Midterm 2)
-Final Exam
-Projects (for applicable courses)
+<ul>
+<li>Assignments</li>
+<li>Quizzes</li>
+<li>Sessional 1 (Midterm 1)</li>
+<li>Sessional 2 (Midterm 2)</li>
+<li>Final Exam</li>
+<li>Projects (for applicable courses)</li>
+</ul>
 
 2. 📅 Task Scheduler
-
 Features:
-
-✅ Create tasks with title, description, subject
-✅ Set priority levels (Low, Medium, High)
-✅ Due date and time tracking
-✅ Status management (Pending, In Progress, Completed)
-✅ Filter by status
-✅ Overdue task highlighting
-✅ Statistics dashboard
-✅ Edit and delete functionality
-
+<ul>
+<li>✅ Create tasks with title, description, subject</li>
+<li>✅ Set priority levels (Low, Medium, High)</li>
+<li>✅ Due date and time tracking</li>
+<li>✅ Status management (Pending, In Progress, Completed)</li>
+<li>✅ Filter by status</li>
+<li>✅ Overdue task highlighting</li>
+<li>✅ Statistics dashboard</li>
+<li>✅ Edit and delete functionality</li>
+</ul>
 Task Statistics:
+<ul>
+<li>Pending count</li>
+<li>In-progress count</li>
+<li>Completed count</li>
+<li>Overdue count</li>
+</ul>
 
-Pending count
-In-progress count
-Completed count
-Overdue count
-
-3. 📝 Interactive QuizzesAvailable Subjects:
-
-Programming Fundamentals (10 questions, 15 mins)
-Calculus (10 questions, 20 mins)
-Applied Physics (10 questions, 15 mins)
-ICT (10 questions, 10 mins)
-Pakistan Studies (10 questions, 15 mins)
-Functional English (10 questions, 15 mins)
-
+3. 📝 Interactive Quizzes
+Available Subjects:
+<ol>
+<li><strong>Programming Fundamentals</strong> (10 questions, 15 mins)</li>
+<li><strong>Calculus</strong> (10 questions, 20 mins)</li>
+<li><strong>Applied Physics</strong> (10 questions, 15 mins)</li>
+<li><strong>ICT</strong> (10 questions, 10 mins)</li>
+<li><strong>Pakistan Studies</strong> (10 questions, 15 mins)</li>
+<li><strong>Functional English</strong> (10 questions, 15 mins)</li>
+</ol>
 Features:
-
-✅ Countdown timer
-✅ Question progress tracker
-✅ Multiple-choice format
-✅ Instant scoring
-✅ Performance feedback
-✅ Answer review mode
-✅ Score history tracking
-✅ Retake option
-
+<ul>
+<li>✅ Countdown timer</li>
+<li>✅ Question progress tracker</li>
+<li>✅ Multiple-choice format</li>
+<li>✅ Instant scoring</li>
+<li>✅ Performance feedback</li>
+<li>✅ Answer review mode</li>
+<li>✅ Score history tracking</li>
+<li>✅ Retake option</li>
+</ul>
 
 4. 🎮 Memory Game
 Game Features:
+<ul>
+<li>🎯 8 pairs of educational emoji cards</li>
+<li>🎯 Move counter</li>
+<li>🎯 Timer</li>
+<li>🎯 Match tracking</li>
+<li>🎯 Victory animation</li>
+<li>🎯 Reset functionality</li>
+</ul>
 
-🎯 8 pairs of educational emoji cards
-🎯 Move counter
-🎯 Timer
-🎯 Match tracking
-🎯 Victory animation
-🎯 Reset functionality
 5. 🎨 Modern UI/UX
-
 Design Highlights:
-
-🌓 Dark/Light theme toggle
-📱 Fully responsive (mobile, tablet, desktop)
-✨ Smooth animations and transitions
-🎨 Modern color palette
-♿ Accessible (ARIA labels, keyboard navigation)
-🚀 Vector graphics (SVG)
-⚡ Fast loading times
+<ul>
+<li>🌓 Dark/Light theme toggle</li>
+<li>📱 Fully responsive (mobile, tablet, desktop)</li>
+<li>✨ Smooth animations and transitions</li>
+<li>🎨 Modern color palette</li>
+<li>♿ Accessible (ARIA labels, keyboard navigation)</li>
+<li>🚀 Vector graphics (SVG)</li>
+<li>⚡ Fast loading times</li>
+</ul>
 
 🚀 Installation
 Method 1: Direct Download
-
-Download the ZIP file from GitHub
-Extract to your desired location
-Open index.html in your browser
-
+<ol>
+<li>Download the ZIP file from GitHub</li>
+<li>Extract to your desired location</li>
+<li>Open <code>index.html</code> in your browser</li>
+</ol>
 Method 2: Git Clone
-
-# Clone the repository
-git clone https://github.com/yourusername/graderocket.git
-
-# Navigate to project directory
-cd graderocket
-
-# Open in browser (or use local server)
-open index.html
-
-📊 Git Commit History (Milestones)
-
-Required Minimum: 5 Major Milestones ✅
-Milestone 1: Project Initialization 🎬
-
-commit: "Initial project setup with basic structure"
-Date: October 26, 2024
-
-Changes:
-- Created index.html with navigation structure
-- Added styles.css with CSS variables and theme system
-- Implemented responsive navigation bar
-- Added hero section with animated rocket SVG
-- Setup project folder structure
-
-Files Added:
-
-index.html
-styles.css
-app.js (theme toggle, navigation)
-README.md
-
-Milestone 2: GPA Calculator Implementation 📊
-
-Files Added:
-
-calculator.html
-calculator.css
-calculator.js
-
-Key Functions:
-
-calculateGPA()
-addEntry()
-updateEntry()
-saveToLocalStorage()
-loadFromLocalStorage()
-
-Milestone 3: Task Scheduler Development 📅
-
-Files Added:
-
-tasks.html
-tasks.css
-tasks.js
-
-Key Functions:
-
-addTask()
-editTask()
-deleteTask()
-filterTasks()
-updateStats()
-
-🎓 Learning Outcomes
-1. HTML5 Mastery
-
-Skills Gained:
-
-✅ Semantic HTML structure
-✅ Form handling and validation
-✅ Accessibility with ARIA
-✅ SVG integration
-✅ Meta tags and SEO
-
-5. Problem-Solving Skills
-Challenges Solved:
-
-✅ Complex GPA calculation algorithm
-✅ Dynamic content rendering
-✅ Data persistence without backend
-✅ Responsive design across devices
-✅ Timer implementation
-✅ Animation coordination
-
-💾 LocalStorage Implementation
-Why LocalStorage?
-Benefits:
-
-✅ No server required (pure client-side)
-✅ No user accounts needed
-✅ Instant data access
-✅ Works offline
-✅ Privacy (data never leaves device)
-✅ 5-10MB storage capacity
-
-Limitations:
-
-❌ Only stores strings
-❌ Synchronous (blocks main thread)
-❌ No encryption
-❌ Per-domain storage
-❌ Can be cleared by user
-
-👥 Contributors
-Development Team
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://via.placeholder.com/100/6366f1/ffffff?text=AR" width="100px;" alt="Ans Rizwan"/><br />
-      <sub><b>Ans Rizwan</b></sub><br />
-      <sub>24F-0779</sub><br />
-      <sub>Lead Developer</sub>
-    </td>
-    <td align="center">
-      <img src="https://via.placeholder.com/100/8b5cf6/ffffff?text=SN" width="100px;" alt="Suleman Naeem"/><br />
-      <sub><b>Suleman Naeem</b></sub><br />
-      <sub>25F-0747</sub><br />
-      <sub>JavaScript Developer</sub>
-    </td>
-    <td align="center">
-      <img src="https://via.placeholder.com/100/10b981/ffffff?text=MT" width="100px;" alt="Muhammad Talha"/><br />
-      <sub><b>Muhammad Talha</b></sub><br />
-      <sub>25F-0592</sub><br />
-      <sub>UI/UX Designer</sub>
-    </td>
-  </tr>
-</table>
-
-📝 License
-
-MIT License
-
-Copyright (c) 2024 GradeRocket Team
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO
