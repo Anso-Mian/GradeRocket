@@ -408,3 +408,30 @@ Contribution Breakdown
 <td>All</td>
 </tr>
 </table>
+
+🔮 Future Enhancements
+Version 2.0 Roadmap
+Authentication & Cloud:
+
+ Firebase authentication
+ Cloud Firestore for data sync
+ Multi-device synchronization
+ User profiles
+
+New Features:
+
+ Export GPA reports to PDF
+ Calendar integration for tasks
+ Study timer (Pomodoro)
+ Grade prediction algorithm
+ Course recommendations
+ Study group collaboration
+
+Technical Improvements:
+
+ Progressive Web App (PWA)
+ Service Worker for offline mode
+ IndexedDB for larger storage
+ Unit tests with Jest
+ End-to-end tests with Cypress
+ Accessibility audit (WCAG 2.1)
